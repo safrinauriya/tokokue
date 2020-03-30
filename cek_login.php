@@ -11,9 +11,9 @@ $cek = mysqli_num_rows($data);
 if($cek>0){
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location:registrasi.php");
+    header("location:form_admin.php");
 }else{
-    header("location:utama.php?submit=gagal");
+    header("location:login.php?submit=gagal");
 
 }
 ?>
