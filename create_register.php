@@ -15,9 +15,7 @@
     $password2 = $_POST['password2'];
 
     if($password !== $password2){
-        echo "<script>
-        alert('konfirmasi password tidak sesuai!');
-        </script>";
+        echo "<script>alert('Password tidak sesuai');location='registrasi_pembeli.php'</script>";
         return false;
     }
    

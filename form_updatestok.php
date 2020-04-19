@@ -28,19 +28,27 @@
 include 'koneksiregister.php';
 
 $id = $_GET ['id'];
-$query = "SELECT * FROM stok WHERE id = '$id'";
+$query = "SELECT * FROM tb_kue WHERE id = '$id'";
 $result = $connect->query($query);
 $row = $result->fetch_assoc();
 ?>
 
 <div class="container">
     <form action="update_stok.php" method="POST">
-    <center><h1>PENGUBAHAN DATA STOK KUE</h1></center>
+    <center><h1>PENGUBAHAN DATA KUE</h1></center>
     <hr>
     
     <div class="form-group">
-        <td><label for="nama_kue">Nama Kue</label></td>
-        <td><input type="text" name="nama_kue" id="nama_kue" value="<?php echo $row['nama_kue'];?>" class="form-control"></td>
+        <td><label for="kode">Kode Kue</label></td>
+        <td><input type="text" name="kode" id="kode" value="<?php echo $row['kode'];?>" class="form-control"></td>
+    </div>
+    <div class="form-group">
+        <td><label for="nama">Nama Kue</label></td>
+        <td><input type="text" name="nama" id="nama" value="<?php echo $row['nama'];?>" class="form-control"></td>
+    </div>
+    <div class="form-group">
+        <td><label for="lokasi">Lokasi</label></td>
+        <td><input type="text" name="lokasi" id="lokasi" value="<?php echo $row['lokasi']; ?>" class="form-control"></td>
     </div>
     <div class="form-group">
         <td><label for="stok">Stok</label></td>

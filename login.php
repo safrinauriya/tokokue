@@ -55,9 +55,16 @@
     </div>
                 <button type="submit" value="LOGIN" class="btn btn-primary">LOGIN</button>
                 <button type="reset" value="RESET" class="btn btn-danger">RESET</button>
+                
+            
          
                 <br><br>
          <a href="registrasi.php">Belum Punya Akun</a> 
+    
+
+         <br>
+         <br>
+         
       </form>
       </div>
 </body>

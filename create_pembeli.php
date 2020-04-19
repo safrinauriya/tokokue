@@ -16,9 +16,7 @@
     $password2 = $_POST['password2'];
 
     if($password !== $password2){
-        echo "<script>
-        alert('konfirmasi password tidak sesuai!');
-        </script>";
+        echo "<script>alert('Password tidak sesuai');location='registrasi_pembeli.php'</script>";
         return false;
     }
    
@@ -30,9 +28,11 @@
     $num = mysqli_affected_rows($connect);
 
     if($num>0){
-        echo "Berhasil tambah data";
+        echo "<script>alert('Berhasil registrasi,silahkan login');</script>";
+    echo "<script>location='login_pembeli.php';</script>"; 
     }else{
-        echo "gagal";
+        echo "<script>alert('Gagal registrasi,ulangi lagi');</script>";
+        echo "<script>location='registrasi_pembeli.php';</script>"; 
     }
     
 ?>

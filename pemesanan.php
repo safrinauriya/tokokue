@@ -84,7 +84,7 @@
                     <ul class="list-group list-group-flush p-2 pt-4">
                         <li class="list-group-item text-white" style="background-color: #d0836e; text-align: center;">KATEGORI PRODUK</li>
                         <li class="list-group-item " style="background-color: #dcd2c8;"><a href="pemesanan.html">Cakes</a></li>
-                        <li class="list-group-item" style="background-color: #dcd2c8;"><a href="breads.html">Breads</a></li>
+                        <li class="list-group-item" style="background-color: #dcd2c8;"><a href="pemesanan.html?halaman=breads">Breads</a></li>
                         <li class="list-group-item" style="background-color: #dcd2c8;"><a href="dessert.html">Dessert</a></li>
                         <li class="list-group-item" style="background-color: #dcd2c8;"><a href="form_pesan.php">Pemesanan</a></li>
                       </ul>
@@ -141,7 +141,7 @@
                               <h5 class="card-title">BLACKFOREST</h5>
                               <p class="card-text">Kue ini menggunakan bahan baku dark chocolate, 
                                 lalu adanya serutan cokelat sebagai hiasan pada bagian atasnya melambangkan 'black forest'.</p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         <div class="card mr-3 ml-3" style="width: 21rem; height: 28rem;">
@@ -150,7 +150,7 @@
                               <h5 class="card-title">CHEESE CAKE</h5>
                               <p class="card-text"> Cheesecake adalah kue yang biasanya dimakan sebagai hidangan penutup dan dibuat
                                  dengan mencampurkan keju yang bertekstur lembut, telur, susu, dan gula.</p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         <div class="card mr-3 ml-3" style="width: 21rem; height: 28rem;">
@@ -159,7 +159,7 @@
                               <h5 class="card-title">CREPES</h5>
                               <p class="card-text">Ada sekitar 20 lapis crepes tipis yang disusun menjadi kue dengan dilapisi krim 
                                 di setiap layernya lalu disiram dengan cokelat leleh di bagian atasnya.</p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         
@@ -174,7 +174,7 @@
                               <h5 class="card-title">Matcha Cake</h5>
                               <p class="card-text">Cake teh hijau yang cantik ini sangat menggugah selera. Dengan ditaburi bubuk teh hijau asli.
                                 Selain enak, juga cocok untuk Anda yang sedang diet.</p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         <div class="card mr-3 ml-3" style="width: 21rem; height: 28rem;">
@@ -182,7 +182,7 @@
                             <div class="card-body bg-light">
                               <h5 class="card-title">Opera Cake</h5>
                               <p class="card-text">Opera cake merupakan kue yang terbuat dari lapisan sponge cake yang dilapisi dengan sirup kopi, buttercream kopi, dan cokelat. </p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         <div class="card mr-3 ml-3" style="width: 21rem; height: 28rem;">
@@ -192,7 +192,7 @@
                               <p class="card-text"> Sacher cake terbuat dari sponge cake cokelat yang diisi dengan selai aprikot dan dilapisi dengan dark chocolate.
                                 <br><br>
                               </p>
-                              <a href="#" class="btn btn-primary">Harga</a>
+                              <a href="#" class="btn btn-primary">Beli</a>
                             </div>
                         </div>
                         

@@ -11,7 +11,7 @@ $cek = mysqli_num_rows($data);
 if($cek>0){
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location:form_admin.php");
+    echo "<script>alert('Anda berhasil login');location='form_admin.php'</script>";
 }else{
     header("location:login.php?submit=gagal");
 

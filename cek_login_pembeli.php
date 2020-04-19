@@ -11,9 +11,10 @@ $cek = mysqli_num_rows($data);
 if($cek>0){
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location:pemesanan.html");
+    echo "<script>alert('Anda berhasil login');location='pemesanan.php'</script>";
+
 }else{
-    header("location:utama.php?submit=gagal");
+    header("location:login_pembeli.php?submit=gagal");
 
 }
 ?>

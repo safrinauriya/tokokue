@@ -15,12 +15,14 @@
 include 'koneksiregister.php';
 
 $id = $_POST['id'];
-$nama_kue = $_POST['nama_kue'];
+$kode = $_POST['kode'];
+$nama = $_POST['nama'];
+$lokasi = $_POST['lokasi'];
 $stok = $_POST['stok'];
 $harga = $_POST['harga'];
 
 
-$query = "UPDATE stok SET nama_kue='$nama_kue' , stok = '$stok' , harga= '$harga' 
+$query = "UPDATE tb_kue SET kode='$kode' , nama = '$nama' , lokasi= '$lokasi', stok= '$stok', harga= '$harga' 
 WHERE id = '$id'";
 
 $result = $connect->query($query);
@@ -28,11 +30,11 @@ $result = $connect->query($query);
 $num = mysqli_affected_rows($connect);
 
 if($num > 0){
-    echo "Berhasil tambah data <br>";
-    echo "<a href='tampil.php'>Lihat Data</a>"; 
+    echo "<script>alert('Berhasil update data');</script>";
+    echo "<script>location='stok.php';</script>"; 
 }else{
-    echo "Gagal update data <br>".mysqli_connect_error();
-    echo "<a href='tampil.php'>Lihat Data</a>"; 
+    echo "<script>alert('Gagal update data');</script>";
+    echo "<script>location='stok.php';</script>"; 
 } 
 
 
